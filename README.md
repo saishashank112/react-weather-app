@@ -12,7 +12,7 @@ A sleek and simple weather application built with **ReactJS**, featuring live we
 
 ## 🖼️ Preview
 
-"C:\Users\saishashank\OneDrive\Pictures\Screenshots\Screenshot 2025-05-03 152638.png"
+"https://www.linkedin.com/posts/allampallysaishashank_reactjs-weatherapp-frontenddevelopment-activity-7324372487859798016-V6ZL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7c98oBUkRK7POl6YMS-KqdYQCULBggYio"
 
 ---
 
