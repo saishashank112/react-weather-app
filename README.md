@@ -12,7 +12,7 @@ A sleek and simple weather application built with **ReactJS**, featuring live we
 
 ## 🖼️ Preview
 
-![Weather App Screenshot](./screenshot.png) <!-- Add a screenshot if available -->
+"C:\Users\saishashank\OneDrive\Pictures\Screenshots\Screenshot 2025-05-03 152638.png"
 
 ---
 
