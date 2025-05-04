@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./App.css"; // We'll create this file for styling
+import "./App.css"; 
 
-const API_KEY = "ba795d8bee6a3e29ea661f7b16354c3b"; // Your actual API key
+const API_KEY = "Your actual API Key"; 
 
 function App() {
   const [city, setCity] = useState("");
@@ -20,8 +20,8 @@ function App() {
         `https://api.openweathermap.org/data/2.5/weather?q=${trimmedCity}&appid=${API_KEY}&units=metric`
       );
 
-      const text = await res.text(); // Get raw response
-      console.log("API raw response:", text); // Log for debugging
+      const text = await res.text(); 
+      console.log("API raw response:", text); 
 
       if (!res.ok) throw new Error("City not found");
 
@@ -29,7 +29,7 @@ function App() {
       setWeatherData(data);
       setError("");
       
-      // Set background based on weather condition
+   
       setBackgroundByWeather(data.weather[0].main);
     } catch (err) {
       setWeatherData(null);
@@ -126,7 +126,6 @@ function App() {
   );
 }
 
-// Helper function to get appropriate weather icon
 function getWeatherIcon(weatherMain) {
   const weather = weatherMain.toLowerCase();
   if (weather.includes("clear")) return "☀️";
